@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BHTools'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '工具类集合，方便以后开发'
 
 # This description is used to generate tags and improve search results.

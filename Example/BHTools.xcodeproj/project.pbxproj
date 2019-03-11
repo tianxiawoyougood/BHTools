@@ -246,9 +246,6 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "571100944@qq.com";
 				TargetAttributes = {
-					6003F589195388D20070C39A = {
-						DevelopmentTeam = A6C6R885GZ;
-					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -477,7 +474,7 @@
 			baseConfigurationReference = 09518A11F73420954404F389 /* Pods-BHTools_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = A6C6R885GZ;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BHTools/BHTools-Prefix.pch";
 				INFOPLIST_FILE = "BHTools/BHTools-Info.plist";
@@ -493,7 +490,7 @@
 			baseConfigurationReference = 4B825C8B9DFBA27BD8725B53 /* Pods-BHTools_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = A6C6R885GZ;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BHTools/BHTools-Prefix.pch";
 				INFOPLIST_FILE = "BHTools/BHTools-Info.plist";

@@ -14,8 +14,9 @@
 		B5F542C94B8287E3CFD5D7272D8546D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		CC155B8ABA8F368F54C62B331144836D /* Pods-BHTools_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 276326D14A37B0B9D583E08A262A2AEC /* Pods-BHTools_Tests-dummy.m */; };
 		DD8B64823DF93B74F1FC796985BAB8A6 /* Pods-BHTools_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD217D9D613ED1BE48844B3FCCDAB3E /* Pods-BHTools_Example-dummy.m */; };
-		DF624C3122365174008CB14E /* BHTextLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = DF624C2F22365174008CB14E /* BHTextLabel.h */; };
+		DF624C3122365174008CB14E /* BHTextLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = DF624C2F22365174008CB14E /* BHTextLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF624C3222365174008CB14E /* BHTextLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = DF624C3022365174008CB14E /* BHTextLabel.m */; };
+		DF624C3422365DC5008CB14E /* BHTools.h in Headers */ = {isa = PBXBuildFile; fileRef = DF624C3322365D9F008CB14E /* BHTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FBDB2F4A66BEC2B4A526099075061084 /* Pods-BHTools_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E97FAF851155D9584611656F8F59EBC /* Pods-BHTools_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FD40E88CC6221897840714F0795A53CC /* BHTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F67CF7950181FBE5254D29BA7B6F1F /* BHTools-dummy.m */; };
 /* End PBXBuildFile section */
@@ -70,6 +71,7 @@
 		C8367239E3A999AFD8D1C56575758F12 /* Pods-BHTools_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BHTools_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		DF624C2F22365174008CB14E /* BHTextLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHTextLabel.h; sourceTree = "<group>"; };
 		DF624C3022365174008CB14E /* BHTextLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHTextLabel.m; sourceTree = "<group>"; };
+		DF624C3322365D9F008CB14E /* BHTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BHTools.h; path = BHTools/Classes/BHTools.h; sourceTree = "<group>"; };
 		E13D452DD14FC562D81E2310073E8968 /* Pods-BHTools_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BHTools_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E508C47B310362CE555EC715EA559932 /* Pods_BHTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BHTools_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8BE8F4FAB0F5D6809A7026443D03A2D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 		0753F40C6E10573D56E7F5574EFF4C0A /* BHTools */ = {
 			isa = PBXGroup;
 			children = (
+				DF624C3322365D9F008CB14E /* BHTools.h */,
 				DF624C2E22365174008CB14E /* BHTextLabel */,
 				1B6C85BB5AFC7EEC7E2A6AB3D830E69F /* Pod */,
 				320AE8E9A4B3AD7DC778361C833317DE /* Support Files */,
@@ -254,6 +257,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF624C3422365DC5008CB14E /* BHTools.h in Headers */,
 				DF624C3122365174008CB14E /* BHTextLabel.h in Headers */,
 				80E65D6FCF8E90EB8B58C0E14592F171 /* BHTools-umbrella.h in Headers */,
 			);

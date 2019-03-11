@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'BHTools_Example' do
+  pod 'BHTools', :path => '../'
+
+  target 'BHTools_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

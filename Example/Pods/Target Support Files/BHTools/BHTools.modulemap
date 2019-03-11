@@ -1,0 +1,6 @@
+framework module BHTools {
+  umbrella header "BHTools-umbrella.h"
+
+  export *
+  module * { export * }
+}

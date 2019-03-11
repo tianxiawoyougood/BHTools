@@ -1,0 +1,16 @@
+PODS:
+  - BHTools (0.1.0)
+
+DEPENDENCIES:
+  - BHTools (from `../`)
+
+EXTERNAL SOURCES:
+  BHTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BHTools: e613f3b46e96f478e9f52290fee5acd6bda3d592
+
+PODFILE CHECKSUM: 10bbd65f540f4b9efb632c369058ad16e8cd392d
+
+COCOAPODS: 1.5.3

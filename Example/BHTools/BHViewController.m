@@ -7,6 +7,8 @@
 //
 
 #import "BHViewController.h"
+#import <BHTools/BHTools.h>
+#import <BHTools/BHTextLabel.h>
 
 @interface BHViewController ()
 

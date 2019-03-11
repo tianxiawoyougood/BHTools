@@ -1,22 +1,22 @@
 {
   "name": "BHTools",
-  "version": "0.1.0",
-  "summary": "A short description of BHTools.",
+  "version": "0.1.1",
+  "summary": "工具类集合，方便以后开发",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/571100944@qq.com/BHTools",
+  "homepage": "https://github.com/tianxiawoyougood/BHTools.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "571100944@qq.com": "571100944@qq.com"
+    "bh": "bh"
   },
   "source": {
-    "git": "https://github.com/571100944@qq.com/BHTools.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/tianxiawoyougood/BHTools.git",
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "BHTools/Classes/**/*"
+  "source_files": "BHTools/Classes/*.{h,m}"
 }

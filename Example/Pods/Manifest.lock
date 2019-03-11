@@ -1,5 +1,5 @@
 PODS:
-  - BHTools (0.1.0)
+  - BHTools (0.1.1)
 
 DEPENDENCIES:
   - BHTools (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BHTools: e613f3b46e96f478e9f52290fee5acd6bda3d592
+  BHTools: 1ab603798083ec692c7b6b866694814ea2954749
 
 PODFILE CHECKSUM: 10bbd65f540f4b9efb632c369058ad16e8cd392d
 
